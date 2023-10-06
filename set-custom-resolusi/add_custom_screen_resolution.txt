@@ -1,0 +1,6 @@
+cvt 1360 768 60
+xrandr
+xrandr --newmode "1360x768_60.00"   84.75  1366 1431 1567 1776  768 771 781 798 -hsync +vsync
+xrandr VGA-1 "1360x768_60.00"
+
+sudo cp xorg.conf /etc/X11/
